@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ORM_Dapper
 {
-    public interface IDepartmentRepository
+    public interface IProductRepository
     {
-        IEnumerable<Department> GetAllDeparments();
+        IEnumerable<Product> GetAllProducts();
     }
 }
